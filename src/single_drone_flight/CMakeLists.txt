@@ -39,6 +39,9 @@ endif ()
 install(PROGRAMS 
         controller/single_drone_control.py
         controller/simulation_launcher.py
+        controller/missions/box_mission.py  # ADD THIS LINE
+        controller/missions/figure8_mission.py    # ADD
+        controller/missions/spiral_mission.py     # ADD
         DESTINATION lib/${PROJECT_NAME})
 
 # Install launch files
